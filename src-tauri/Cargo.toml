@@ -16,6 +16,7 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 inputbot = "0.6"
 winapi = { version = "0.3.9", features = ["winuser"] }
+wooting-analog-wrapper = { git = "https://github.com/WootingKb/wooting-analog-sdk" }
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
